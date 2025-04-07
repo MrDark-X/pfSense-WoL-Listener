@@ -35,5 +35,19 @@ Make sure `tcpdump` and `wol` are available on your pfSense shell:
 
 ```bash
 pkg install wol tcpdump
+```
 
 ### 2️⃣ Upload the Script
+```bash
+scp wol_listener.sh root@<pfsense-ip>:/root/
+chmod +x /root/wol_listener.sh
+```
+
+### 3️⃣ Run the Script
+```bash
+sh /root/wol_listener.sh
+```
+
+📄 Logging
+- /root/received.txt → logs raw WoL packet details
+- /root/command_status.log → logs output of executed commands
