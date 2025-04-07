@@ -27,6 +27,8 @@ This blueprint-style diagram shows where the pfSense firewall fits in and how it
 
 ---
 
+![Network Topology](execution_flow.png)
+
 ## 📥 Setup Instructions
 
 ### 1️⃣ Install Required Packages
