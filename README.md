@@ -11,7 +11,7 @@ This script listens for **Wake-on-LAN** packets on the **WAN interface** of a pf
 
 ## 🖼️ Network Topology
 
-![Network Topology](images/network_topology.png)
+![Network Topology](network_topology.png)
 
 This blueprint-style diagram shows where the pfSense firewall fits in and how it wakes various devices when a WoL packet is detected.
 
