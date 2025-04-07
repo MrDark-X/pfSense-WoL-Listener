@@ -48,6 +48,11 @@ chmod +x /root/wol_listener.sh
 sh /root/wol_listener.sh
 ```
 
-📄 Logging
+### 📄 Logging
 - /root/received.txt → logs raw WoL packet details
 - /root/command_status.log → logs output of executed commands
+
+### 🔐 Security Tips
+. Only allow WoL packets from trusted sources
+. Protect access to tcpdump and this script
+. Don't expose this script to the public internet
