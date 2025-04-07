@@ -35,3 +35,5 @@ Make sure `tcpdump` and `wol` are available on your pfSense shell:
 
 ```bash
 pkg install wol tcpdump
+
+### 2️⃣ Upload the Script
