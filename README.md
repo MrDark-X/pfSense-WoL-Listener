@@ -53,6 +53,6 @@ sh /root/wol_listener.sh
 - /root/command_status.log → logs output of executed commands
 
 ### 🔐 Security Tips
-. Only allow WoL packets from trusted sources
-. Protect access to tcpdump and this script
-. Don't expose this script to the public internet
+- Only allow WoL packets from trusted sources
+- Protect access to tcpdump and this script
+- Don't expose this script to the public internet
